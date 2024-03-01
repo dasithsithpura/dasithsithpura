@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Equalizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            text-align: center;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #666;
+        }
+        input[type="range"] {
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
+        input[type="submit"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .frequency-range {
+            font-style: italic;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Equalizer</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file">Choose a WAV file:</label>
+            <input type="file" id="file" name="file" accept=".wav, .mp3">
+            <label for="bass">Bass (20Hz - 250Hz):</label>
+            <input type="range" id="bass" name="bass" min="0" max="100" value="50">
+            <label for="midrange">Midrange (250Hz - 4kHz):</label>
+            <input type="range" id="midrange" name="midrange" min="0" max="100" value="50">
+            <label for="treble">Treble (4kHz - 20kHz):</label>
+            <input type="range" id="treble" name="treble" min="0" max="100" value="50">
+            <input type="submit" value="Upload and Equalize">
+        </form>
+    </div>
+</body>
+</html>
