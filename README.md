@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @dasithsithpura...
-- 👀 I’m interested in programing
-- 🌱 I’m currently learning infomatic instritute of technology campus...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+Dasith Sithura
+11:30 AM
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=31&pause=1000&random=false&width=435&lines=Hello!+My+name+is+Isuru+)](https://git.io/typing-svg)
+# 💫 About Me:
+🔭 I’m currently studying in university of Westminster<br>🌱 I’m currently learning python Flask<br>💬 Ask me about anything dasith.20220338@iit.ac.lk<br>⚡ Fun fact just kidding
 
-<!---
-dasithsithpura/dasithsithpura is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+## 🌐 Socials:
+[![Facebook]([https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white](https://web.facebook.com/?_rdc=1&_rdr)https://web.facebook.com/?_rdc=1&_rdr)](https://faceb
